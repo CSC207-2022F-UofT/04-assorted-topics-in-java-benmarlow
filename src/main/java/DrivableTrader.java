@@ -30,8 +30,7 @@ public class DrivableTrader extends Trader {
     public DrivableTrader(int money) {
         super(money);
     }
-
-    @Override
+    
     public int getSellingPrice(Drivable item) {
         int super_price = super.getSellingPrice(item);
 
