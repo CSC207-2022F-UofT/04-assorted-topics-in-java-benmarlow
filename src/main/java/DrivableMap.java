@@ -64,10 +64,10 @@ class DrivableMap {
      *       drivable_map.
      */
     public List getTradable() {
-        List result = new List();
+        ArrayList result = new ArrayList<Tradable>();
         for(Drivable d : drivable_map.values()) {
             if(d instanceof Tradable) {
-                result.append(d);
+                result.add(d);
             }
         }
         return result;
