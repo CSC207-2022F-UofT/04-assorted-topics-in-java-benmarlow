@@ -28,7 +28,7 @@ class DrivableMap {
      *       Return true if the Drivable was added to drivable_map.
      */
     public boolean addDrivable(String drivable_id, Drivable item) {
-        for(String key : drivable_map.keys()) {
+        for(String key : drivable_map.keySet()) {
             if(key.equals(drivable_id)) {
                 return false;
             }
